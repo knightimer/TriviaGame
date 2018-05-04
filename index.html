@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            
+            <Title> The Trivia Game </Title>
+            
+            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+            <link rel="stylesheet" href="game.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+            
+           <style>
+           body{
+           background-image: src url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fpre00.deviantart.net%2Fe596%2Fth%2Fpre%2Fi%2F2013%2F130%2F4%2Fa%2Fstar_trek_saga___the_original_series__3__by_camuska-d64s0o7.png&imgrefurl=https%3A%2F%2Fcamuska.deviantart.com%2Fart%2FStar-Trek-Saga-The-Original-Series-3-370822759&docid=CYEAspCujgMWnM&tbnid=mCSnaPN55LMphM%3A&vet=12ahUKEwia5PGTlevaAhVmsVQKHTLvBdA4yAEQMygmMCZ6BAgBECc..i&w=1131&h=707&bih=663&biw=1280&q=star%20trek%20original%20images&ved=2ahUKEwia5PGTlevaAhVmsVQKHTLvBdA4yAEQMygmMCZ6BAgBECc&iact=mrc&uact=8;")
+           }
+
+           body{
+            background-color: blue;
+           }
+           </style>
+        </head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">    
+              <h1>The Trivia Game</h1>
+              <strong>The Original Series Star Trek Quiz</strong>  
+              <p> You have 20 seconds to guess the correct answer.</p>
+              <p> Time Left <span class="countDownTimer"></span> Seconds</p>
+        </div>
+    </div> 
+
+    <div class="container">
+        <div class="jumbotron">
+               <div class ="quiz1"></div>
+                <center>Captain Kirk played in the first series of Star Trek</center>
+                  <center><input type="radio" name="opt" id="1">YES</label><input type="radio" name="opt" id="2">NO</center>
+                  <center>Spock was a captain in the first series.
+                  <center><input type="radio" name="opt" id="1">YES</label><input type="radio" name="opt" id="2">NO</center>
+                  <center>Bones was the nickname of the doctor in the series.</center>
+                  <center><input type="radio" name="opt" id="1">YES</label><input type="radio" name="opt" id="2">NO</center>
+                  <center>Scotty was the chief engineer for the Enterprise</center>
+                  <center><input type="radio" name="opt" id="1">YES</label><input type="radio" name="opt" id="2">NO</center>
+                  <center>Sulu was the first officer in the series.</center>
+                  <center><input type="radio" name="opt" id="1">YES</label><input type="radio" name="opt" id="2">NO</center>
+        
+                <div id="results">         
+            </div>                      
+                    
+        </div>
+    </div>             
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+            
+</body>
+</html>

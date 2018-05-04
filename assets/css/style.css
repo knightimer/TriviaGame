@@ -1,0 +1,19 @@
+.jumbotron {
+
+background-color:  blue;
+}
+
+.question{
+    text-align: center
+}
+.answers {
+    text-align: center;
+}
+.answers label{
+  display: block;
+}
+#submit{
+    align-content: center;
+}
+
+
